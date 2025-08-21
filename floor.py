@@ -29,7 +29,7 @@ BEARISH_LOGO = "https://www.bearish.af/_next/image?url=%2Fimages%2FLogo-Bearish-
 
 # Local image paths - Create these folders and save your GIFs here
 IMAGES_FOLDER = "images"
-ICE_IMAGE = "images/ice1.png"
+ICE_IMAGE = "images/ice2.png"
 CRACK_IMAGE = "images/crack2.png"
 CRACK3_IMAGE = "images/crack3.png"
 CRACK_LIGHT_IMAGE = "images/cracklight.png"
@@ -421,4 +421,5 @@ async def test(ctx, token_id: int):
     await ctx.send(status_msg)
 
 if __name__ == "__main__":
+
     bot.run(DISCORD_BOT_TOKEN) 
